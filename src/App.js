@@ -70,9 +70,9 @@ func1();
 
         </div>
 
-        <div className="code-snippet border-2 border-red-100  ">
+        <div className="code-snippet w-96 h-full bg-teal-800 p-2  ">
           {/* <pre>{codeSnippet.code}</pre> */}
-          <CodeSnippet code={codeSnippet.code} />
+          <CodeSnippet code={codeSnippet.code}  />
         </div>
       </div>
 

@@ -7,7 +7,12 @@ const CodeSnippet = ({code,}) => {
     text={code}
     language="javascript"
     showLineNumbers='true'
-    theme={tomorrowNight}
+    theme={tomorrowNight} 
+    customStyle={{
+      height: 'inherit',
+      overflow: 'scroll',
+      
+    }}
     
     />
   )
